@@ -1,4 +1,7 @@
 @media(min-width:768px) {
+    h1{
+        font-size: 40px;
+    }
     /* header */
     .header {
         a {
@@ -16,9 +19,13 @@
     }
 
     /* footer */
-    .footer__grid {
+    .footer{
+        min-height: 20vh;
+    
+    &__grid {
         grid-template-columns: repeat(3, 1fr);
     }
+}
 
     /*  html index */
     .main-index {
