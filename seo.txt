@@ -1,0 +1,20 @@
+1- AGREGUE ETIQUETAS KEYWORDS EN TODOS LOS HTML:
+index: vela, soja, artesanal, souvenirs, atrapasueños
+Productos: productos,venta, velas, atrapasueños, souvenirs
+Galeria: fotos, galeria, souvenirs, video
+faq: faq, preguntas frecuentes, horarios, pagos
+contacto: contacto, consultas, comprar, redes
+
+
+2- AGREGUE ETIQUETA DESCRPTION EN TODOS LOS HTML:
+index:EPIKIE es un emprendimiento dedicado a velas de soja, atrapasueños y arcoiris nordicos.
+productos:Estos son los productos que podes encontrar en venta en EPIKIE
+Galeria: En esta pagina se pueden ver los productos de Epikie y algunos consejos
+faq: Preguntas frecuentes de los clientes de Epikie
+contacto:Pagina sugerida para ponerse en contacto y poder comprar en Epikie
+
+3- Modifique todos los nombres de las paginas HTML
+
+4- Agregue favicom
+
+5- Coloque 1 solo h1 por pagina
