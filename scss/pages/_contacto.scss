@@ -1,0 +1,85 @@
+.main-contacto {
+    .contacto {
+        @include fontStyle (text-align);
+        
+    }
+
+    h3 {
+        @extend %h3;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .texto-contacto {
+            font-size: 15px;
+            color: $marron-oscuro;
+
+        }
+
+        input {
+            width: 90%;
+            margin: 10px;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+
+        textarea {
+            width: 90%;
+            margin: 10px;
+
+            &::placeholder {
+                text-align: center;
+            }
+        }
+
+        textarea:focus,
+        input:focus,
+        input[type]:focus {
+            border-color: $marron-oscuro;
+            border: 5px;
+            box-shadow: 0 1px 1px $marron-claro, 0 0 8px $marron-claro;
+            outline: 0 none;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .opcion {
+            margin: 5px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: $marron-oscuro;
+
+            &:hover {
+                font-size: 22px;
+                background-color: $marron-claro;
+                color: white;
+            }
+        }
+    }
+
+    .imagen-redes {
+        display: flex;
+        justify-content: center;
+
+        a {
+            color: $marron-oscuro;
+            font-size: 3rem;
+            margin: 5px;
+
+            &:hover {
+                font-size: 3.2rem;
+            }
+        }
+
+    }
+
+
+}

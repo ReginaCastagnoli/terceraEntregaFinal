@@ -1,0 +1,56 @@
+%texto-card {
+    text-align: center;
+    font-size: 15px;
+}
+
+%boton-card {
+    background-color: $beige-osc;
+    padding: 0.75rem;
+    border-width: 1rem;
+    border-radius: 0.375rem;
+    display: inline-block;
+    color: $marron-oscuro;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+%h1-index {
+    color: #ebedee;
+    font-size: 15px;
+}
+
+%presentacion {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 10px;
+}
+
+%texto-body-acordion {
+    font-size: 15px;
+    color: $marron-oscuro;
+}
+
+%h3 {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+@mixin fontStyle ($alineado) {
+    font-size: 20px;
+    color: $marron-oscuro;
+    text-align: $alineado;
+}
+
+%alineado{
+    text-align: center;
+}
+@mixin fontStyle ($titulo-card){
+    font-size: 20px;
+    color: $marron-oscuro;
+    text-align: center;
+    font-weight:$titulo-card;
+}

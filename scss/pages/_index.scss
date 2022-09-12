@@ -1,0 +1,44 @@
+.main-index {
+    .img-index {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .container-index {
+            position: relative;
+
+            img {
+                width: 170px;
+                padding: 5px;
+            }
+
+            .content {
+                position: absolute;
+                bottom: 0;
+                background: #463f3a7c;
+                color: #f1f1f1;
+                width: 100%;
+                height: 20%;
+
+                .h1-index {
+                    @extend %h1-index;
+                }
+            }
+        }
+
+
+    }
+    //PRESENTACION
+    .quien-soy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .presentacion {
+           @extend %presentacion;
+        }
+        .fotoJimena {
+            margin: 50px;
+        }
+    }
+}

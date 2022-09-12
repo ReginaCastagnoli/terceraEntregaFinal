@@ -1,0 +1,33 @@
+//MAIN PRODUCTOS Y GALERIA
+main {
+    .grid-container-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+
+        .card {
+            .card-body {
+                display: flex;
+                flex-direction: column;
+
+                .card-title {
+                    @include fontStyle (bolder);
+                }
+
+                .card-text {
+                    @extend %texto-card;
+                }
+
+                .boton {
+                    @extend %boton-card;
+
+                    &:hover {
+                        color: #ebedee;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

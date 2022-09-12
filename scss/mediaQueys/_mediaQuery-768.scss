@@ -1,0 +1,117 @@
+@media(min-width:768px) {
+    /* header */
+    .header {
+        a {
+            font-size: 20px;
+
+            &:hover {
+                font-size: 25px;
+            }
+        }
+
+        &__logo {
+            height: 120px;
+
+        }
+    }
+
+    /* footer */
+    .footer__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*  html index */
+    .main-index {
+        .img-index {
+            justify-content: center;
+
+            .container-index {
+                img {
+                    width: 270px;
+                    margin: 0px;
+                }
+
+                .content {
+                    .h1-index {
+                        color: #ebedee;
+                        font-size: 22px;
+                    }
+                }
+
+
+            }
+        }
+
+        .quien-soy {
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-around;
+
+            .presentacion {
+                font-size: 20px;
+            }
+        }
+    }
+
+    /* html productos */
+    main {
+        .grid-container-card {
+            width: 48rem;
+            justify-content: space-around;
+        }
+    }
+
+
+    /*  html galeria */
+    .main-galeria {
+        .grid-container-galeria {
+            display: grid;
+            max-width: 850px;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: stretch;
+        }
+    }
+
+    /* html faq */
+    .accordion {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button-faq {
+                    font-size: 23px;
+                }
+            }
+
+            .accordion-collapse {
+                .accordion-body {
+                    font-size: 20px;
+                }
+            }
+        }
+
+    }
+
+    /* html contacto */
+    .main-contacto {
+        h3 {
+            font-size: 25px;
+        }
+
+        form {
+            .texto-contacto {
+                font-size: 18px;
+
+            }
+        }
+
+        .imagen-redes {
+            .i-contacto {
+                font-size: 3.4rem;
+
+                &:hover {
+                    font-size: 3.8rem;
+                }
+            }
+        }
+    }
+
+}

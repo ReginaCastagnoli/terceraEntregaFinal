@@ -1,0 +1,83 @@
+@media(min-width:1024px) {
+
+    /* header */
+    .header {
+        &__logo {
+            height: 150px;
+        }
+    }
+
+    /*  html index */
+    .main-index {
+        .img-index {
+            .container-index {
+                img {
+                    width: 400px;
+                }
+
+                .h1-index {
+                    color: #ebedee;
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .quien-soy {
+            .presentacion {
+                text-align: center;
+                padding: 10px;
+            }
+        }
+
+    }
+
+    /* html productos */
+    main {
+        .grid-container-card {
+            width: 64rem;
+        }
+    }
+
+    /* html galeria */
+    .main-galeria {
+        .grid-container-galeria {
+            max-width: 1300px;
+        }
+    }
+
+    /* html contacto */
+    .main-contacto {
+        .contacto {
+            font-size: 30px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        form {
+            .texto-contacto {
+                font-size: 20px;
+                margin: 5px;
+            }
+
+            .opcion {
+                font-size: 23px;
+
+                &:hover {
+                    font-size: 25px;
+                }
+            }
+        }
+
+        .imagen-redes {
+            .i-contacto {
+                font-size: 3.8rem;
+                &:hover{
+                    font-size: 4rem;
+                }
+        
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+///* MOBILE FIRST desde 375px*/
+
+/* COLORES:
+#463f3a (MARRON OSC)
+#8a817c (MARRON CLARO)
+#bcb8b1 (BEIGE OSC)
+#f4f3ee (BEIGE)
+#e0afa0 (SALMON)
+ */
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import"./variables/typo";
+@import"./variables/colores";
+@import"./variables/extend";
+
+@import"./secciones/headerYFooter";
+@import"./secciones/tipografia";
+@import"./secciones/todosMain";
+
+@import"./pages/index";
+@import"./pages/productos";
+@import"./pages/galeria";
+@import"./pages/faq";
+@import"./pages/contacto";
+
+@import"./mediaQueys/mediaQuery-768";
+@import"./mediaQueys/mediaQuery.1024";
